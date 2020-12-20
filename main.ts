@@ -1,5 +1,5 @@
 input.onButtonPressed(Button.A, function () {
-    basic.showString("Hello! Here is your pattern!")
+    basic.showIcon(IconNames.Happy)
     basic.showLeds(`
         # # # # #
         # # # # #
@@ -189,27 +189,31 @@ input.onButtonPressed(Button.A, function () {
         . . . . .
         . . . . .
         `)
-    basic.showString("Press A or B for a message and pattern!")
+    basic.showLeds(`
+        # # # # #
+        # # # # #
+        # # # # #
+        # # # # #
+        # # # # #
+        `)
+    basic.showIcon(IconNames.Happy)
 })
 input.onButtonPressed(Button.AB, function () {
-    basic.showString("Press A or B for message and Pattern!")
-    basic.showLeds(`
-        # . . . #
-        . # . # .
-        . . # . .
-        . # . # .
-        # . . . #
-        `)
+    basic.showIcon(IconNames.Heart)
+    basic.showIcon(IconNames.SmallHeart)
+    basic.showIcon(IconNames.Yes)
+    basic.showIcon(IconNames.No)
+    basic.showIcon(IconNames.Happy)
+    basic.showIcon(IconNames.Sad)
+    basic.showIcon(IconNames.Confused)
+    basic.showIcon(IconNames.Angry)
+    basic.showIcon(IconNames.Asleep)
+    basic.showIcon(IconNames.Surprised)
+    basic.showIcon(IconNames.Silly)
+    basic.showIcon(IconNames.Fabulous)
+    basic.showIcon(IconNames.Meh)
 })
 input.onButtonPressed(Button.B, function () {
-    basic.showLeds(`
-        . . # . .
-        . . # . .
-        . . # . .
-        . . . . .
-        . . # . .
-        `)
-    basic.showString("Here is a Pattern for you!")
     basic.showIcon(IconNames.Happy)
     basic.showLeds(`
         # # # # #
@@ -264,127 +268,50 @@ input.onButtonPressed(Button.B, function () {
         # . . . #
         . # . . .
         . . # . .
-        . . . # .
+        . # . # .
         # . . . #
         `)
     basic.showLeds(`
-        # # . . #
-        . # . . .
+        # . . . #
+        . # . # .
         . . # . .
-        . . . # .
+        . # . # .
         # . . . #
         `)
     basic.showLeds(`
-        # # # . #
-        . # . . .
+        # . # . #
+        . # . # .
         . . # . .
-        . . . # .
+        . # . # .
         # . . . #
         `)
     basic.showLeds(`
-        # # # . #
-        # # . . .
+        # . # . #
+        . # # # .
         . . # . .
-        . . . # .
+        . # . # .
         # . . . #
         `)
     basic.showLeds(`
-        # # # # #
-        # # . . .
+        # . # . #
+        . # # # .
         . . # . .
-        . . . # .
+        . # # # .
         # . . . #
         `)
     basic.showLeds(`
-        # # # # #
-        # # # . .
+        # . # . #
+        . # # # .
         . . # . .
-        . . . # .
-        # . . . #
+        . # # # .
+        # . # . #
         `)
     basic.showLeds(`
-        # # # # #
-        # # # . .
-        . . # . .
-        . . # # .
-        # . . . #
-        `)
-    basic.showLeds(`
-        # # # # #
-        # # # . #
-        . . # . .
-        . . # # .
-        # . . . #
-        `)
-    basic.showLeds(`
-        # # # # #
+        # . # . #
         # # # # #
         . . # . .
-        . . # # .
-        # . . . #
-        `)
-    basic.showLeds(`
-        # # # # #
-        # # # # #
-        . . # . .
-        . . # # .
-        # # . . #
-        `)
-    basic.showLeds(`
-        # # # # #
-        # # # # #
-        . . # . .
-        . . # # .
-        # # # . #
-        `)
-    basic.showLeds(`
-        # # # # #
-        # # # # #
-        . . # . .
-        . . # # .
-        # # # # #
-        `)
-    basic.showLeds(`
-        # # # # #
-        # # # # #
-        # . # . .
-        . . # # .
-        # # # # #
-        `)
-    basic.showLeds(`
-        # # # # #
-        # # # # #
-        # . # . .
-        # . # # .
-        # # # # #
-        `)
-    basic.showLeds(`
-        # # # # #
-        # # # # #
-        # # # . .
-        # . # # .
-        # # # # #
-        `)
-    basic.showLeds(`
-        # # # # #
-        # # # # #
-        # # # . .
-        # # # # .
-        # # # # #
-        `)
-    basic.showLeds(`
-        # # # # #
-        # # # # #
-        # # # # .
-        # # # # .
-        # # # # #
-        `)
-    basic.showLeds(`
-        # # # # #
-        # # # # #
-        # # # # #
-        # # # # .
-        # # # # #
+        . # # # .
+        # . # . #
         `)
     basic.showLeds(`
         # # # # #
@@ -394,5 +321,4 @@ input.onButtonPressed(Button.B, function () {
         # # # # #
         `)
     basic.showIcon(IconNames.Diamond)
-    basic.showString("Press A or B for a message and pattern!")
 })
